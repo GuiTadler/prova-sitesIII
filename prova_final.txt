@@ -1,0 +1,113 @@
+Nome: Guilherme Tadler
+
+1)Qual a função de um arquivo .env em uma aplicação node express?
+
+Resposta: O arquivo .env em uma aplicação node express, tem como função a configuração com o banco de dados, onde normalmente ali temos a string de conexão com o banco de dados, nome do database e porta!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Como o padrão MVC contribui para a manutenção e a escalabilidade de um sistema?
+
+Resposta: Uma aplicação MVC, contribui de uma maneira extremamente positiva quando falamos em manutenção e escabilidade de um sistema, devido a sua separação de responsabilidade, desenvolvedores tem grande falidade em contribuir com inovações e manutenções ao projeto que está alocado, tornando essa prática muito mais simples e objetiva.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3) Em uma aplicação node, qual a função do comando npm?
+
+Resposta: No um contexto geral o comando NPM serve para como um gerenciador que permite a instalação, atualização, remoção gerenciamento de dependências de uma aplicação Node.js. O npm é instalado automaticamente juntamente com o Node.js.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4)Qual função do arquivo package.json em uma aplicação node?
+
+Resposta: O arquivo package.json tem como suas resposabilidades o gerenciamento de dependencias, informações do projeto, scripts personalizados e versões de dependencias, é ali que fica salvo tudo o que está sendo usado em seu projeto.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5)Citar e descrever em detalhes pelo menos 4 verbos HTTP
+
+Resposta: 
+
+Get: O verbo GET é usado para recuperar recursos ou informações de um servidor. Quando por exemplo enviamos uma solicitação GET para um servidor, o servidor retorna o recurso solicitado no corpo da resposta, podemos falar que é um verbo que obtem recursos e informações
+
+Post: O verbo POST é resposavel por enviar enviar dados ou informaçoes para o servidor. Ao enviar uma solicitação POST,como por exemplo enviar dados no corpo da solicitação para que o servidor os processe conforme o que lá está configurado.
+
+Delete: O verbo DELETE é usado para remover determinada informação de um servidor. onde através de uma solicitação DELETE, é enviado uma comando de exclusão ao servidor e determinada informação se ocorrer como previsto será apagada.
+
+Put: O verbo PUT é usado para substituir um recurso existente no servidor. Ao enviar uma solicitação PUT, o cliente envia o novo conteúdo para o servidor, que no caso substitui o recurso existente pelo novo conteúdo informado.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) Fale sobre o protocolo HTTP
+
+Resposta: O protocolo HTTP é um protocolo de comunicaçao usado para transportar dados pela Internet. Ele define a maneira como as solicitaçoes e respostas devem ser formatadas, enviadas, recebidas entre um cliente (web) e um servidor (páginas da web), o HTTP funciona no modelo cliente-servidor, onde o cliente envia solicitações ao servidor e espera por respostas. Uma solicitação HTTP consiste em um método (verbo), uma URL (endereço do recurso), cabeçalhos (informações adicionais) e, opcionalmente, um corpo (dados adicionais). O servidor processa a solicitação e retorna uma resposta.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7)Descreva em detalhes o SGBD mongodb.
+
+Resposta: O mongoDB é um dos Sistemas gerenciamento de banco de dados(Sgbd), é um banco de dados orientado a documento e tem como grande qualidade sua velocidade e facilidade quando em aplicações web, devido a sua flexibilidade no armazenamento de arquivos que são salvos em formato json;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8)Descreva como funciona o sistema de rotas do node express.
+
+Resposta: O sistemas de rotas em uma aplicação que utiliza node express, funciona da seguinte maneira, são criados routas(routs), que busca atraves de determinado endereço(Exemplo: admin/tarefas/addtarefa), busca uma informação(dado), e a partir desse dados, ele normalmente consulta em uma arquivo controller, conforme a rota informada, o comportamento que tal ação derá dentro da aplicação, definindo assim o sistemas de rotas, onde uma ligação tem contato com outra(Front-end(view) => Back-end(controller) => model(banco de dados))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9) Quais são as principais vantagens da arquitetura MVC em aplicações web?
+
+Resposta: 
+
+Separação de responsabilidades, onde temos três componentes principais, onde a equipe que estiver dentro do projeto, terá de forma bem dividida suas responsabilidades conforme o projeto(Model, View e Controller);
+
+Reutilização de código: A separação dos componentes como anteriormente citado, faz com que códigos já desenvolvidos possam ser reaproveitados em outros projetos.
+
+Flexibilidade e escalabilidade: Com esse tipo de arquitetura, temos a facilidade de adicionar novos recursos e funcionalidades ao sistema, sem afetar de forma direta outras partes do código.
+
+Teste: Com a separação temos uma maior facilidade em testar e automatizar os processos.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10) Quais são os frameworks populares que utilizam a arquitetura MVC no desenvolvimento de aplicações web?
+
+Resposta: Django(Pynthon), Laravel(PHP), ASP.NET MVC, Express.js tem ainda outros...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11)Descreva pelo menos um serviço em nuvem, utilizado para disponibilizar recursos para serem consumidos por aplicações, ou para estas mesmas.
+
+Resposta: O serviço em nuvem em que até foi usado em uma das nossas tarefas desse semestre é o Digital Ocean, onde foi é de grande facilidade para termos hospetagens de aplicações web, mas dentro desse contexto não temos so o Digital Ocean, mas também outros seviços como o Hostigator, Hostiger e outros.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12)Fale sobre o SGBD MySQL.
+
+Resposta: O Banco de dados MySQL é um banco de dados relacional e é outro banco de dados que pertecem ao Sistemas de Gerenciamento de Banco de Dados(SGDB), é um banco de dados que se destaca devido a sua facilidade de construção na sua arquitetura e modelagem de dados, também nas alterações de escopos dentro do proprio banco.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+13)Onde pode ser encontrada a documentação das funcionalidades dos pacotes utilizados pelo nodejs.
+
+Resposta: Documentações e pacotes utilizados sobre o node podem ser encontrados em diversos forúm em comunidades de desenvolvimento, mas sempre é recomendavél acompanhar essas atualizações dentro do forúm do proprio node.js(Express, Vue, React, Ext) acompanhando todas as novidades e inovações.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+14)Descreva a responsabilidade dos diferentes módulos na arquitetura MVC.
+
+Resposta:
+
+Model: Responsável por toda a manipulação de dados que o sistema terá, encapsulando a lógica do negócio, atualizando, deletando e inserindo.
+
+View: Responsável pela a view do usuário, a view realiza a rederização e exibe a interface ao usuário, onde ali o mesmo navega dentro da aplicação.
+
+Controller: Responsável por receber as requisições do usuários, interagir com o model e a view, e coordenar todas interações e possuir todas regras de negócio de um sistema.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15)Descreva em detalhes o Mongo Atlas
+
+Resposta: O Mongo Atlas além de ser fornecer o banco de dados MongoDB, ele fornece uma plataforma na nuvem para hospedar e gerenciar instâncias do MongoDB, permitindo que os desenvolvedores criem, dimensionem e monitorem seus bancos de dados MongoDB de maneira conveniente.
+
+Tem grandes facilidade como Hospedagem na nuvem, backup e recuperação de desastres, alta disponibilidade e replicação e outros.
